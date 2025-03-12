@@ -3,9 +3,9 @@ body {
   background: #ccc;
 }
 section.button-creator{
-  display: flex;
-  flex-flow: column wrap;
-  place-items: center;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 20px;
 }
 label {
   display: block;
